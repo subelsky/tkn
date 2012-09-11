@@ -12,7 +12,7 @@ Mike Subelsky
 EOS
 
 slide <<-EOS, :center
-How do you connect your objects together?
+How do you connect your objects?
 EOS
 
 slide <<-EOS, :code
@@ -154,6 +154,7 @@ stats_request.on_success do |body|
 
   xml.xpath("//Audience").each do |aud|
     key = aud.at("id").text
+    # do stuff with key
   end
 
   @success = true

@@ -5,6 +5,8 @@ slide <<-EOS, :center
 
 
 Mike Subelsky
+
+subelsky.com
 @subelsky
 
 
